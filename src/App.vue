@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <aplikasi-header/>
+    
     <div class="container">
+    
     <div class="content-body">
+    <aplikasi-header/>
       <router-view></router-view>
     </div>
     </div>
@@ -25,8 +27,8 @@ export default {
 
 <style>
   .content-body{
-    background-color: red;
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 70px;
   }
 </style>
