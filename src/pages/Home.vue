@@ -1,38 +1,88 @@
 <template>
   <div role="tablist">
-    <b-card no-body class="mb-1">
-      <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-button block href="#" v-b-toggle.accordion-1 variant="info">Accordion 1</b-button>
-      </b-card-header>
-      <b-collapse id="accordion-1" visible accordion="my-accordion" role="tabpanel">
-        <b-card-body>
-          <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
-          <b-card-text>{{ text }}</b-card-text>
-        </b-card-body>
-      </b-collapse>
-    </b-card>
-
-    <b-card no-body class="mb-1">
-      <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-button block href="#" v-b-toggle.accordion-2 variant="info">Accordion 2</b-button>
-      </b-card-header>
-      <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
-        <b-card-body>
-          <b-card-text>{{ text }}</b-card-text>
-        </b-card-body>
-      </b-collapse>
-    </b-card>
-
-    <b-card no-body class="mb-1">
-      <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-button block href="#" v-b-toggle.accordion-3 variant="info">Accordion 3</b-button>
-      </b-card-header>
-      <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
-        <b-card-body>
-          <b-card-text>{{ text }}</b-card-text>
-        </b-card-body>
-      </b-collapse>
-    </b-card>
+    <div class="card shadow-lg p-3 mb-5 bg-white rounded" style="border: 0px;">
+      <div class="card-body">
+        <h5 class="card-title pull-right">Hello Gengs!</h5>
+        <div class="border-title"></div>
+        <p class="card-text">Ada yang bisa kami bantu?</p>
+        <div class="row">
+        <div class="col-md-6">
+        <img style="width: 100%" src="https://img.pngio.com/customer-service-girl-png-2-png-image-customer-service-png-400_289.png" class="lazy" alt="">
+        </div>
+        <div class="col-md-6">
+            <h1>CUSTOMER</h1>
+            <h1>CARE</h1>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class=" clearfix">
+  <h2>Topik Populer</h2>
+</div>
+    <div class="col-md-12" style="padding: 0px;">
+      <div class="row">
+        <div class="col-md-4 col-xs-6 col-sm-12">
+          <div class="card shadow-lg p-3 mb-5 bg-white"  style="border: 0px;">
+            <div class="card-body text-center">
+              <h5 class="card-title text-left">Cara membeli produk</h5>
+              <div class="border-title"></div>
+              <p class="card-text">Ada yang bisa kami bantu?</p>
+              <button class="btn btn-success text-center btn-sm">Selengkapnya</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-6 col-sm-12">
+          <div class="card shadow-lg p-3 mb-5 bg-white rounded bordered"  style="border: 0px;">
+            <div class="card-body text-center">
+              <h5 class="card-title text-left">Cara cek ongkos kirim</h5>
+              <div class="border-title"></div>
+              <p class="card-text">Ada yang bisa kami bantu?</p>
+              <button class="btn btn-success text-center btn-sm">Selengkapnya</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-6 col-sm-12">
+          <div class="card shadow-lg p-3 mb-5 bg-white rounded bordered"  style="border: 0px;">
+            <div class="card-body text-center">
+              <h5 class="card-title text-left">Cara cek status pengiriman</h5>
+              <div class="border-title"></div>
+              <p class="card-text">Ada yang bisa kami bantu?</p>
+              <button class="btn btn-success text-center btn-sm">Selengkapnya</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-6 col-sm-12">
+          <div class="card shadow-lg p-3 mb-5 bg-white rounded bordered"  style="border: 0px;">
+            <div class="card-body text-center">
+              <h5 class="card-title text-left">Cara isi pulsa</h5>
+              <div class="border-title"></div>
+              <p class="card-text">Ada yang bisa kami bantu?</p>
+              <button class="btn btn-success text-center btn-sm">Selengkapnya</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-6 col-sm-12">
+          <div class="card shadow-lg p-3 mb-5 bg-white rounded bordered"  style="border: 0px;">
+            <div class="card-body text-center">
+              <h5 class="card-title text-left">Cara isi pulsa</h5>
+              <div class="border-title"></div>
+              <p class="card-text">Ada yang bisa kami bantu?</p>
+              <button class="btn btn-success text-center btn-sm">Selengkapnya</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-6 col-sm-12">
+          <div class="card shadow-lg p-3 mb-5 bg-white rounded bordered"  style="border: 0px;">
+            <div class="card-body text-center">
+              <h5 class="card-title text-left">Cara isi pulsa</h5>
+              <div class="border-title"></div>
+              <p class="card-text">Ada yang bisa kami bantu?</p>
+              <button class="btn btn-success text-center btn-sm">Selengkapnya</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

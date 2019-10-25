@@ -26,9 +26,36 @@ export default {
 </script>
 
 <style>
+  body{
+    background-color: red;
+  }
+
+  .navbar{
+    background-color: blue;
+  }
   .content-body{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 70px;
+  }
+
+  .btn-custom{
+    border-radius: 0px;
+  }
+
+ .card{
+   min-height : 200px;
+   border: 0px;
+   border-radius: 0px;
+ }
+
+  .border-title{
+    width: 60px;
+    height: 10px;
+    background-color: green;
+    border-radius: 40px;
+    margin-top: -9px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 </style>

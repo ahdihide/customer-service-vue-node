@@ -1,18 +1,10 @@
 <template>
     <div>
-        <b-card no-radius  style="border-radius: 0px;">
-            <b-card-header style="border-radius: 0px;">
-
-            </b-card-header>
-
-            <b-card-body>
-
-            </b-card-body>
-
-            <b-card-footer>
-
-            </b-card-footer>
-        </b-card>
+       <div class="card shadow-lg p-3 mb-5 bg-white rounded" style="border: 0px;">
+        <div class="card-body">
+            
+        </div>
+    </div>
     </div>
 </template>
 

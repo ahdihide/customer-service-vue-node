@@ -1,7 +1,7 @@
 <template>
     <div>
     <Listchat/>
-    <div class="chat-input" style="padding: 10px; border-radius=0px; background-color: #91073f;">
+    <div class="chat-input" style="padding: 10px; border-radius=0px; background-color: green;">
         <b-form-group>
             <textarea class="form-control no-radius" placeholder="Tulis Pesan anda"></textarea>
         </b-form-group>
